@@ -1,0 +1,20 @@
+{
+  "name": "assets-map",
+  "version": "1.0",
+  "description": "生成资源地图",
+  "author": "ShawnZhang",
+  "main": "main.js",
+  "main-menu": {
+    "i18n:MAIN_MENU.package.title/assets-map/settings": {
+      "message": "assets-map:settings"
+    }
+  },
+
+  "panel": {
+    "main": "panel/index.js",
+    "type": "dockable",
+    "title": "构建资源解析",
+    "width": 400,
+    "height": 700
+  }
+}
